@@ -44,4 +44,6 @@ export interface ModerationResult {
   toxic_words: string[];
   emoji_analysis: EmojiAnalysis[];
   confidence_score: number;
+  translation?: string;
+  meaning?: string;
 }
